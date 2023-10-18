@@ -12,16 +12,17 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <h1 className="text-white text-2xl font-semibold md:px-16">TaxMarg</h1>
+        <h1 className="text-white text-2xl font-semibold md:px-16 ml-4 md:ml-0">TaxMarg</h1>
         </div>
 
-        {/* Mobile Menu Toggle Button */}
-        <button
-          className="md:hidden text-white text-2xl absolute right-5 mb-11"
-          onClick={toggleMobileMenu}
-        >
-          ☰
-        </button>
+       {/* Mobile Menu Toggle Button (Hidden on Desktop) */}
+<button
+  className="md:hidden text-white text-2xl absolute right-2 top-2 "
+  onClick={toggleMobileMenu}
+>
+  ☰
+</button>
+
 
         {/* Desktop Navigation Links (Hidden on Mobile) */}
         <nav className="hidden md:flex space-x-4 px-10">
