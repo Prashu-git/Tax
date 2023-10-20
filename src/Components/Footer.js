@@ -1,22 +1,68 @@
 import React from 'react';
 
 const Footer = () => {
-  return (
-    <footer className="bg-blue-900 text-white py-8">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-  <div className="md:w-1/2 text-center md:text-left-2">
-    {/* Contact Information */}
-    <h2 className="text-2xl font-semibold">TaxMarg</h2>
-    <p className="mt-2">123 Dr RajKumar Road</p>
-    <p>Bangalore, Karnataka 560051</p>
-    <p>Email: taxmarg@gmail.com</p>
-    <p>Phone: +91 123456789</p>
-  </div>
-  </div>
+    return (
+        <footer className="bg-blue-900 text-white p-4">
+            <div className="container mx-auto text-center">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
+                    <div>
+                        <h2 className="text-xl font-bold mb-2 underline">TaxMarg</h2>
+                        <p> 123 Dr. RajKumar Road, Bangalore, Karnataka 560021</p>
+                        <br/>
+                        <p> email : taxmart@gmail.com</p>
+                        <br/>
 
-        {/* Social Media Icons */}
-        <hr className="my-8 border-white border-gray-700" />
+                        <p>Phone: +91 999999999</p>
+                    </div>
+
+                    {/* Navigation Links */}
+                    <div>
+                        <h2 className="text-xl font-bold mb-2 underline">Important Links</h2>
+                        <ul>
+                            <li>
+                                <a href="/" className="text-white hover:text-black block  lg:text-white p-1 px-3  ">About</a>
+                            </li>
+                            <li>
+                                <a href="/about" className="text-white hover:text-black block  lg:text-white p-1 px-3  ">GST</a>
+                            </li>
+                            <li>
+                                <a href="/services" className="text-white hover:text-black block  lg:text-white p-1 px-3  ">Services</a>
+                            </li>
+
+                            <li>
+                                <a href="/businesses" className="text-white hover:text-black block  lg:text-white p-1 px-3  ">Income Tax Dept</a>
+                            </li>                                               <li>
+                                <a href="/contact" className="text-white hover:text-black block  lg:text-white p-1 px-3  ">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Legal Links */}
+                    <div>
+                        <h2 className="text-xl font-bold mb-2 underline" >Legal</h2>
+                        <ul>
+                            <li>
+                                <a
+                                    to="/termsCondition" className="text-white hover:text-black block  lg:text-white p-2 px-6  "
+                                >Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a
+                                    to="/privacy-policy" className="text-white hover:text-black block  lg:text-white p-2 px-6  ">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a
+                                    to="/service-policy " className="text-white hover:text-black block  lg:text-white p-2 px-6  ">  Service Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                {/* Copyright */}
+                {/* <p className="mt-4">&copy; {new Date().getFullYear()} Company Name</p> */}
+            </div>
+            <hr className="my-8 border-white border-gray-700" />
             <div className="flex items-center justify-center space-x-4">
                 <a
                     href="https://www.facebook.com/"
@@ -62,15 +108,9 @@ const Footer = () => {
                         <path d="M23.954 4.569c-.885.388-1.835.65-2.833.771 1.014-.609 1.794-1.575 2.164-2.725-.951.564-2.005.974-3.127 1.194-.895-.957-2.17-1.555-3.578-1.555-2.706 0-4.904 2.198-4.904 4.904 0 .384.043.758.126 1.116-4.082-.205-7.7-2.164-10.122-5.138-.422.717-.665 1.552-.665 2.445 0 1.693.863 3.188 2.172 4.066-.8-.025-1.556-.245-2.217-.611v.062c0 2.364 1.681 4.33 3.913 4.78-.41.111-.84.172-1.283.172-.313 0-.616-.031-.917-.09.631 1.958 2.445 3.381 4.598 3.422-1.685 1.322-3.807 2.11-6.104 2.11-.397 0-.79-.023-1.178-.069 2.185 1.398 4.768 2.21 7.554 2.21 9.054 0 14.007-7.498 14.007-14.007 0-.213-.005-.426-.015-.638.959-.696 1.798-1.566 2.46-2.557l-.047-.02z" />
                     </svg>
                 </a>
-                
             </div>
-
-        {/* Copyright and Disclaimer */}
-        <div className="mt-6 text-center">
-          <p>&copy; 2023 Your Company. All rights reserved.</p>
-        </div>
-    </footer>
-  );
+        </footer>
+    );
 };
 
 export default Footer;

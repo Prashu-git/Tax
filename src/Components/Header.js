@@ -17,15 +17,14 @@ const Header = () => {
 
        {/* Mobile Menu Toggle Button (Hidden on Desktop) */}
 <button
-  className="md:hidden text-white text-2xl absolute right-2 top-2 "
+  className="md:hidden text-white text-2xl absolute right-6 top-4 "
   onClick={toggleMobileMenu}
 >
   ☰
 </button>
 
-
-        {/* Desktop Navigation Links (Hidden on Mobile) */}
-        <nav className="hidden md:flex space-x-4 px-10">
+  {/* Desktop Navigation Links (Hidden on Mobile) */}
+  <nav className="hidden md:flex space-x-4 px-10">
           <a className="text-white hover:text-black" href="/">Home</a>
           <a className="text-white hover:text-black" href="/about">About</a>
           <a className="text-white hover:text-black" href="/services">Services</a>
@@ -36,27 +35,46 @@ const Header = () => {
           <a className="text-white hover:text-black" href="/signup">Contact</a>
         </nav>
 
+
+
+
         {/* Mobile Menu (Hidden on Desktop) */}
         <div
-          className={`md:hidden bg-blue-900 pt-4 px-2 ${
+          className={`md:hidden bg-white pt-4 px-2 ${
             isMobileMenuOpen ? 'right-0' : '-right-full'
           } absolute top-0 h-full w-2/3 transition-transform duration-300`}
         >
           <button
-            className="text-white text-2xl"
+            className="text-black text-2xl"
             onClick={toggleMobileMenu}
           >
             ✕
           </button>
           <nav className="flex flex-col space-y-4 mt-12">
-            <a className="text-white hover:text-black" href="/">Home</a>
-            <a className="text-white hover:text-black" href="/about">About</a>
-            <a className="text-white hover:text-black" href="/services">Services</a>
-            <a className="text-white hover:text-black" href="/portfolio">Businesses</a>
-            <a className="text-white hover:text-black" href="/blog">Registrations</a>
-            <a className="text-white hover:text-black" href="/contact">Reports</a>
-            <a className="text-white hover:text-black" href="/login">Industries</a>
-            <a className="text-white hover:text-black" href="/signup">Contact</a>
+          <li>
+
+            <a className="text-black hover:text-blue-900" href="/">Home</a></li>
+            <li>
+
+            <a className="text-black hover:text-blue-900" href="/about">About</a></li>
+            <li>
+
+            <a className="text-black hover:text-blue-900" href="/services">Services</a></li>
+            <li>
+
+            <a className="text-black hover:text-blue-900" href="/businesses">Businesses</a></li>
+            <li>
+
+            <a className="text-black hover:text-blue-900" href="/registrations">Registrations</a></li>
+            <li>
+
+            <a className="text-black hover:text-blue-900" href="/reports">Reports</a></li>
+            <li>
+
+            <a className="text-black hover:text-blue-900" href="/industries">Industries</a></li>
+            <li>
+
+            <a className="text-black hover:text-blue-900" href="/contact">Contact</a></li>
           </nav>
         </div>
         {/* Search Bar (Visible on Desktop, Hidden on Mobile) */}
@@ -80,14 +98,22 @@ const Header = () => {
                 ✕
               </button>
               <nav className="flex flex-col space-y-4">
-                <a className="text-white hover:text-black" href="/">Home</a>
-                <a className="text-white hover:text-black" href="/about">About</a>
-                <a className="text-white hover:text-black" href="/services">Services</a>
-                <a className="text-white hover:text-black" href="/portfolio">Businesses</a>
-                <a className="text-white hover:text-black" href="/blog">Registrations</a>
-                <a className="text-white hover:text-black" href="/contact">Reports</a>
-                <a className="text-white hover:text-black" href="/login">Industries</a>
-                <a className="text-white hover:text-black" href="/signup">Contact</a>
+              <li>
+                <a className="text-white hover:text-black" href="/">Home</a></li>
+                <li>
+                <a className="text-white hover:text-black" href="/about">About</a></li>
+                <li>
+                <a className="text-white hover:text-black" href="/services">Services</a></li>
+                <li>
+                <a className="text-white hover:text-black" href="/businesses">Businesses</a></li>
+                <li>
+                <a className="text-white hover:text-black" href="/registrations">Registrations</a></li>
+                <li>
+                <a className="text-white hover:text-black" href="/reports">Reports</a></li>
+                <li>
+                <a className="text-white hover:text-black" href="/industries">Industries</a></li>
+                <li>
+                <a className="text-white hover:text-black" href="/contact">Contact</a></li>
               </nav>
             </div>
           )}
