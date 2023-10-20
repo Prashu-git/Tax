@@ -28,11 +28,11 @@ const Header = () => {
           <a className="text-white hover:text-black" href="/">Home</a>
           <a className="text-white hover:text-black" href="/about">About</a>
           <a className="text-white hover:text-black" href="/services">Services</a>
-          <a className="text-white hover:text-black" href="/portfolio">Businesses</a>
-          <a className="text-white hover:text-black" href="/blog">Registrations</a>
-          <a className="text-white hover:text-black" href="/contact">Reports</a>
-          <a className="text-white hover:text-black" href="/login">Industries</a>
-          <a className="text-white hover:text-black" href="/signup">Contact</a>
+          <a className="text-white hover:text-black" href="/businesses">Businesses</a>
+          <a className="text-white hover:text-black" href="/registrations">Registrations</a>
+          <a className="text-white hover:text-black" href="/reports">Reports</a>
+          <a className="text-white hover:text-black" href="/industries">Industries</a>
+          <a className="text-white hover:text-black" href="/contact">Contact</a>
         </nav>
 
 
