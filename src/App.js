@@ -3,14 +3,14 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Copyright from './Components/Copyright';
-import Slider from './Components/Slider';
 import HomeCenter from './Components/HomeCenter';
+import Slider from './Components/Slider';
 
 function App() {
   return (
     <>
     <Header/>
-    <Slider/>
+<Slider/>    
     <HomeCenter/>
     
 

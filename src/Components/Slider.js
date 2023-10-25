@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
-import silde1 from "./Images/silde1.jpg";
+import slide1 from "./Images/slide1.jpg";
 import slide2 from "./Images/slide2.jpg";
+import image1 from "./Images/image1.jpg";
+import image2 from "./Images/image2.jpg";
+import image3 from "./Images/image3.jpg";
 
-const SliderData = [silde1, slide2];
+const SliderData = [slide1, slide2, image1, image2, image3];
 
 const Slider = () => {
   const [activeSlide, setActiveSlide] = useState(0);
-  const [slides, setSliderData] = useState(SliderData);
+  const [slides] = useState(SliderData);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -26,7 +29,7 @@ const Slider = () => {
 
   return (
     <div className="relative w-full">
-      <div id="default-Slider" className="relative" data-Slider="static">
+      <div className="relative" data-Slider="static">
         <div className="overflow-hidden relative">
           {slides.map((slide, index) => (
             <div
@@ -36,11 +39,6 @@ const Slider = () => {
               }`}
               data-Slider-item
             >
-              {slide.label && (
-                <span className="absolute top-2 left-2 text-xl font-semibold text-white sm:text-2xl dark:text-gray-800">
-                  {slide.label}
-                </span>
-              )}
               <img
                 src={slide}
                 className="block object-cover w-full h-60 sm:h-80 lg:h-96"
@@ -69,7 +67,7 @@ const Slider = () => {
           data-Slider-prev
           onClick={handlePrevClick}
         >
-          <span className="inline-flex justify-center items-center w-6 h-6 rounded-full sm:w-8 sm:h-8 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <span className="inline-flex justify-center items-center w-6 h-6 rounded-full sm:w-8 sm:h-8 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover-bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg
               className="w-4 h-4 text-white sm:w-6 sm:h-6 dark:text-gray-800"
               fill="none"
@@ -93,7 +91,7 @@ const Slider = () => {
           data-Slider-next
           onClick={handleNextClick}
         >
-          <span className="inline-flex justify-center items-center w-6 h-6 rounded-full sm:w-8 sm:h-8 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <span className="inline-flex justify-center items-center w-6 h-6 rounded-full sm:w-8 sm:h-8 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover-bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg
               className="w-4 h-4 text-white sm:w-6 sm:h-6 dark:text-gray-800"
               fill="none"
