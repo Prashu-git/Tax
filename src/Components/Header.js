@@ -1,131 +1,97 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import NavLinks from "./Navbar/NavLinks";
+import Button from "./Navbar/Button";
 
 const Header = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+  // Function to handle menu icon click
+  const handleMenuClick = () => {
+    setOpen(!open);
   };
 
   return (
-    <header className="bg-blue-900 shadow-md py-4">
-      <div className="container mx-auto flex items-center justify-between">
-        {/* Logo */}
-        <div className="flex items-center">
-        <h1 className="text-white text-2xl font-semibold md:px-16 ml-4 md:ml-0">TaxMarg</h1>
+    <nav className="bg-blue-900"  style={{ position: "sticky", top: "0", zIndex: 999 }}>
+      <div className="flex items-center font-medium justify-around">
+        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+          <h1 className="md:cursor-pointer text-xl font-bold text-white">TexMarg</h1>
+
+          <div className="text-3xl md:hidden text-white" onClick={handleMenuClick}>
+  <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+</div>
+
         </div>
-
-       {/* Mobile Menu Toggle Button (Hidden on Desktop) */}
-<button
-  className="md:hidden text-white text-2xl absolute right-6 top-4 "
-  onClick={toggleMobileMenu}
->
-  ☰
-</button>
-
-  {/* Desktop Navigation Links (Hidden on Mobile) */}
-  <nav className="hidden md:flex space-x-4 px-10">
-          <a className="text-white hover:text-black" href="/">Home</a>
-          <a className="text-white hover:text-black" href="/about">About</a>
-          <a className="text-white hover:text-black" href="/services">Services</a>
-          <a className="text-white hover:text-black" href="/businesses">Businesses</a>
-          <a className="text-white hover:text-black" href="/registrations">Registrations</a>
-          <a className="text-white hover:text-black" href="/reports">Reports</a>
-          <a className="text-white hover:text-black" href="/industries">Industries</a>
-          <a className="text-white hover:text-black" href="/contact">Contact</a>
-        </nav>
-
-
-
-
-        {/* Mobile Menu (Hidden on Desktop) */}
-        <div
-          className={`md:hidden bg-white pt-4 px-2 ${
-            isMobileMenuOpen ? 'right-0' : '-right-full'
-          } absolute top-0 h-full w-2/3 transition-transform duration-300`}
-        >
-          <button
-            className="text-black text-2xl"
-            onClick={toggleMobileMenu}
-          >
-            ✕
-          </button>
-          <nav className="flex flex-col space-y-4 mt-12">
+        <ul className={`md:flex hidden uppercase items-center gap-8 font-[Poppins] text-white`}>
           <li>
-
-            <a className="text-black hover:text-blue-900" href="/">Home</a></li>
-            <li>
-
-            <a className="text-black hover:text-blue-900" href="/about">About</a></li>
-            <li>
-
-            <a className="text-black hover:text-blue-900" href="/services">Services</a></li>
-            <li>
-
-            <a className="text-black hover:text-blue-900" href="/businesses">Businesses</a></li>
-            <li>
-
-            <a className="text-black hover:text-blue-900" href="/registrations">Registrations</a></li>
-            <li>
-
-            <a className="text-black hover:text-blue-900" href="/reports">Reports</a></li>
-            <li>
-
-            <a className="text-black hover:text-blue-900" href="/industries">Industries</a></li>
-            <li>
-
-            <a className="text-black hover:text-blue-900" href="/contact">Contact</a></li>
-          </nav>
+            <Link to="/" className="py-7 px-3 inline-block">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="py-7 px-3 inline-block">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/industries" className="py-7 px-3 inline-block">
+              Industries
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="py-7 px-3 inline-block">
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="py-7 px-3 inline-block">
+              Home
+            </Link>
+          </li>
+          <NavLinks />
+        </ul>
+        <div className={`md:block hidden text-white`}>
+          <Button />
         </div>
-        {/* Search Bar (Visible on Desktop, Hidden on Mobile) */}
-        <div className="hidden md:block relative right-20">
-          <input
-            type="text"
-            className="bg-white text-black w-20 p-2 pl-4 rounded-full focus:outline-none"
-            placeholder="Search"
-          />
-          <i className="fas fa-search absolute top-3 left-3 text-white"></i>
-        </div>
-
-        {/* Mobile menu on mobile devices */}
-        <div className="md:hidden">
-          {isMobileMenuOpen && (
-            <div className="bg-blue-900 pt-4 px-2">
-              <button
-                className="text-white text-2xl"
-                onClick={toggleMobileMenu}
-              >
-                ✕
-              </button>
-              <nav className="flex flex-col space-y-4">
-              <li>
-                <a className="text-white hover:text-black" href="/">Home</a></li>
-                <li>
-                <a className="text-white hover:text-black" href="/about">About</a></li>
-                <li>
-                <a className="text-white hover:text-black" href="/services">Services</a></li>
-                <li>
-                <a className="text-white hover:text-black" href="/businesses">Businesses</a></li>
-                <li>
-                <a className="text-white hover:text-black" href="/registrations">Registrations</a></li>
-                <li>
-                <a className="text-white hover:text-black" href="/reports">Reports</a></li>
-                <li>
-                <a className="text-white hover:text-black" href="/industries">Industries</a></li>
-                <li>
-                <a className="text-white hover:text-black" href="/contact">Contact</a></li>
-              </nav>
-            </div>
-          )}
-        </div>
-        {/* User Icon (Visible on Desktop, Hidden on Mobile) */}
-        <div className="md:flex space-x-4 items-center z-10">
-          <div className="text-white">
-            <i className="fas fa-user-circle text-2xl"></i>
+        {/* Mobile nav */}
+        <ul
+          className={`
+          md:hidden bg-blue-900 fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+          duration-500 ${open ? "left-0" : "left-[-100%]"}
+          text-white
+          `}
+        >
+          <li>
+            <Link to="/" className="py-7 px-3 inline-block text-white">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="py-7 px-3 inline-block text-white">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/industries" className="py-7 px-3 inline-block text-white">
+              Industries
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="py-7 px-3 inline-block text-white">
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="py-7 px-3 inline-block text-white">
+              Home
+            </Link>
+          </li>
+          <NavLinks />
+          <div className="py-5 text-white">
           </div>
-        </div>
+        </ul>
       </div>
-    </header>
+    </nav>
   );
 };
 

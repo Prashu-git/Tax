@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
                     <div>
-                        <h2 className="text-xl font-bold mb-2 underline">TaxMarg</h2>
+                        <h2 className="text-xl font-bold mb-2 ">TaxMarg</h2>
                         <p> 123 Dr. RajKumar Road, Bangalore, Karnataka 560021</p>
                         <br/>
                         <p> email : taxmart@gmail.com</p>
@@ -44,16 +44,16 @@ const Footer = () => {
                         <ul>
                             <li>
                                 <a
-                                    to="/termsCondition" className="text-white hover:text-black block  lg:text-white p-2 px-6  "
+                                    href="/termsCondition" className="text-white hover:text-black block  lg:text-white p-2 px-6  "
                                 >Terms and Conditions</a>
                             </li>
                             <li>
                                 <a
-                                    to="/privacy-policy" className="text-white hover:text-black block  lg:text-white p-2 px-6  ">Privacy Policy</a>
+                                    href="/privacy-policy" className="text-white hover:text-black block  lg:text-white p-2 px-6  ">Privacy Policy</a>
                             </li>
                             <li>
                                 <a
-                                    to="/service-policy " className="text-white hover:text-black block  lg:text-white p-2 px-6  ">  Service Policy</a>
+                                    href="/service-policy " className="text-white hover:text-black block  lg:text-white p-2 px-6  ">  Service Policy</a>
                             </li>
                         </ul>
                     </div>
