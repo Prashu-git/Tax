@@ -34,9 +34,8 @@ const Slider = () => {
           {slides.map((slide, index) => (
             <div
               key={index}
-              className={`duration-700 ease-in ${
-                activeSlide === index ? "block" : "hidden"
-              }`}
+              className={`duration-700 ease-in ${activeSlide === index ? "block" : "hidden"
+                }`}
               data-Slider-item
             >
               <img
@@ -52,9 +51,8 @@ const Slider = () => {
             <button
               key={index}
               type="button"
-              className={`w-2 h-2 rounded-full ${
-                activeSlide === index ? "bg-white" : "bg-gray-300"
-              }`}
+              className={`w-2 h-2 rounded-full ${activeSlide === index ? "bg-white" : "bg-gray-300"
+                }`}
               aria-current={activeSlide === index}
               aria-label={`Slide ${index + 1}`}
               data-Slider-slide-to={index}

@@ -1,17 +1,17 @@
 import Footer from "./Footer"
 import Header from "./Header"
 
-const Reports = () =>{
+const Reports = () => {
 
 
-    return(
+    return (
 
         <>
-        <Header/>
-        <br/>
-        <Footer/>
-        
-        
+            <Header />
+            <br />
+            <Footer />
+
+
         </>
     )
 }

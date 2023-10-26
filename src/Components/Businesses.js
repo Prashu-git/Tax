@@ -2,13 +2,13 @@ import Footer from "./Footer"
 import Header from "./Header"
 
 const Businesses = () => {
-    return(
+    return (
 
         <>
-        <Header/>
-        <br/>
-        <Footer/>
-        
+            <Header />
+            <br />
+            <Footer />
+
         </>
     )
 }

@@ -12,7 +12,7 @@ const NavLinks = () => {
           <div className="px-3 text-left md:cursor-pointer group ">
             <h1
               className="py-7 flex justify-between items-center md:pr-0 pr-5 group "
-              style={{ color: "white" }} 
+              style={{ color: "white" }}
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -21,9 +21,8 @@ const NavLinks = () => {
               {link.name}
               <span className="text-xl md:hidden inline">
                 <ion-icon
-                  name={`${
-                    heading === link.name ? "chevron-up" : "chevron-down"
-                  }`}
+                  name={`${heading === link.name ? "chevron-up" : "chevron-down"
+                    }`}
                 ></ion-icon>
               </span>
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
@@ -37,7 +36,7 @@ const NavLinks = () => {
                     <div
                       className="w-4 h-4 left-3 absolute 
                     mt-1 bg-white rotate-45"
-                      style={{ backgroundColor: "white" }} 
+                      style={{ backgroundColor: "white" }}
                     ></div>
                   </div>
                   <div className="bg-white p-5 grid grid-cols-3 gap-10">
@@ -80,24 +79,22 @@ const NavLinks = () => {
                         : setSubHeading("")
                     }
                     className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
-                    style={{ color: "white" }} 
+                    style={{ color: "white" }}
                   >
                     {slinks.Head}
 
                     <span className="text-xl md:mt-1 md:ml-2 inline">
                       <ion-icon
-                        name={`${
-                          subHeading === slinks.Head
+                        name={`${subHeading === slinks.Head
                             ? "chevron-up"
                             : "chevron-down"
-                        }`}
+                          }`}
                       ></ion-icon>
                     </span>
                   </h1>
                   <div
-                    className={`${
-                      subHeading === slinks.Head ? "md:hidden" : "hidden"
-                    }`}
+                    className={`${subHeading === slinks.Head ? "md:hidden" : "hidden"
+                      }`}
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14" style={{ color: "white" }}>

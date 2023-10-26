@@ -2,14 +2,14 @@ import Footer from "./Footer"
 import Header from "./Header"
 
 const ServicePolicy = () => {
-    return(
+    return (
 
         <>
-        <Header/>
-        <br/>
-        <Footer/>
-        
-        
+            <Header />
+            <br />
+            <Footer />
+
+
         </>
 
     )

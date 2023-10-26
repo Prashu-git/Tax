@@ -6,11 +6,11 @@ const About = () => {
     return (
 
         <>
-        <Header/>
-        <br/>
-        <Footer/>
-        
+            <Header />
+            <br />
+            <Footer />
+
         </>
     )
 }
-export default  About
+export default About

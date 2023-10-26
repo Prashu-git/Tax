@@ -4,9 +4,9 @@ import Header from "./Header"
 const Services = () => {
     return (
         <>
-        <Header/>
-        <br/>
-        <Footer/>
+            <Header />
+            <br />
+            <Footer />
         </>
     )
 }

@@ -6,12 +6,12 @@ const TermsConditions = () => {
     return (
 
         <>
-        <Header/>
-        <br/>
-        <Footer/>
-        
-        
-        
+            <Header />
+            <br />
+            <Footer />
+
+
+
         </>
     )
 }

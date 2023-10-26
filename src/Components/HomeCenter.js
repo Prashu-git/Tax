@@ -26,7 +26,7 @@ const HomeCenter = () => {
                   One
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra.                </p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra.                </p>
               </div>
             </div>
 
@@ -39,10 +39,10 @@ const HomeCenter = () => {
               />
               <div className="mt-4">
                 <h3 className="text-lg font-medium text-gray-900">
-Two                </h3>
+                  Two                </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. 
-                      </p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin.
+                </p>
               </div>
             </div>
 
@@ -58,8 +58,8 @@ Two                </h3>
                   Three
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur.
-                           </p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur.
+                </p>
               </div>
             </div>
 
@@ -72,11 +72,11 @@ Two                </h3>
               />
               <div className="mt-4">
                 <h3 className="text-lg font-medium text-gray-900">
-                 Four
+                  Four
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur. 
-                               </p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur.
+                </p>
               </div>
             </div>
 
@@ -92,8 +92,8 @@ Two                </h3>
                   Five
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur. Tristique senectus et netus et malesuada fames ac. 
-                        </p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur. Tristique senectus et netus et malesuada fames ac.
+                </p>
               </div>
             </div>
 
@@ -109,8 +109,8 @@ Two                </h3>
                   Six
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur. Tristique senectus et netus et malesuada fames ac.      
-                                           </p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur. Tristique senectus et netus et malesuada fames ac.
+                </p>
               </div>
             </div>
 
@@ -118,7 +118,7 @@ Two                </h3>
         </div>
       </div>
 
-      
+
     </>
   );
 };

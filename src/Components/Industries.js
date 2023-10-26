@@ -3,15 +3,15 @@ import Header from "./Header"
 
 const Industries = () => {
 
-    return(
+    return (
 
 
         <>
-        <Header/>
-        <br/>
-        <Footer/>
-        
-        
+            <Header />
+            <br />
+            <Footer />
+
+
         </>
     )
 }

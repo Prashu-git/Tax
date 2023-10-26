@@ -9,16 +9,16 @@ import Slider from './Components/Slider';
 function App() {
   return (
     <>
-    <Header/>
-<Slider/>    
-    <HomeCenter/>
-    
+      <Header />
+      <Slider />
+      <HomeCenter />
 
-    <Footer/>
-    <Copyright/>
-    
+
+      <Footer />
+      <Copyright />
+
     </>
-    
+
   );
 }
 

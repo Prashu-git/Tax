@@ -43,7 +43,7 @@ const Header = () => {
           </li>
           <li>
             <Link to="/" className="py-7 px-3 inline-block">
-              Home
+            Compliance
             </Link>
           </li>
           <NavLinks />
@@ -53,7 +53,7 @@ const Header = () => {
         </div>
         {/* Mobile nav */}
         <ul
-           className={`
+          className={`
            md:hidden bg-blue-900 fixed w-full top-20 overflow-y-auto bottom-0 py-14 pl-4 
            duration-500 ${open ? "left-0" : "left-[-100%]"}
            text-white
@@ -81,7 +81,7 @@ const Header = () => {
           </li>
           <li>
             <Link to="/" className="py-7 px-3 inline-block text-white">
-              Home
+            Compliance
             </Link>
           </li>
           <NavLinks />
