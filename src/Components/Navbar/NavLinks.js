@@ -31,7 +31,7 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
+                <div className="absolute top-20 hidden group-hover:md:block hover:md:block hover:text-black">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
@@ -39,14 +39,14 @@ const NavLinks = () => {
                       style={{ backgroundColor: "white" }}
                     ></div>
                   </div>
-                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
+                  <div className="bg-white p-5 grid grid-cols-3 gap-10 hover:text-black">
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="text-lg font-semibold" style={{ color: "black" }}>
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5" style={{ color: "black" }}>
+                          <li className="text-sm text-gray-600 my-2.5 hover:text-black" style={{ color: "black" }}>
                             <Link
                               to={slink.link}
                               className="hover:text-primary"
@@ -78,7 +78,7 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
+                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5 hover:text-black"
                     style={{ color: "white" }}
                   >
                     {slinks.Head}
@@ -97,7 +97,7 @@ const NavLinks = () => {
                       }`}
                   >
                     {slinks.sublink.map((slink) => (
-                      <li className="py-3 pl-14" style={{ color: "white" }}>
+                      <li className="py-3 pl-14 hover:text-black" style={{ color: "white" }}>
                         <Link to={slink.link}>{slink.name}</Link>
                       </li>
                     ))}

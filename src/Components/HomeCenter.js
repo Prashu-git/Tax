@@ -15,7 +15,7 @@ const HomeCenter = () => {
           </div>
           <div className="mt-8 sm:mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/* Item 1 */}
-            <div className="group relative bg-white p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
+            <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
                 src="https://t3.ftcdn.net/jpg/06/20/73/20/_F_620732047_oK7OpoyxBp6qyk15WYAf1O5p9EKbk2g.jpg"
                 alt="Item 1"
@@ -31,7 +31,7 @@ const HomeCenter = () => {
             </div>
 
             {/* Item 2 */}
-            <div className="group relative bg-white p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
+            <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
                 src="https://img.freepik.com/premium-/building-with-hightec-security-3865.jpg"
                 alt="Item 2"
@@ -47,7 +47,7 @@ const HomeCenter = () => {
             </div>
 
             {/* Item 3 */}
-            <div className="group relative bg-white p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
+            <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
                 src="https://img.freepik.com/premium-/vector-data-security-persona-data-175.jpg"
                 alt="Item 3"
@@ -64,7 +64,7 @@ const HomeCenter = () => {
             </div>
 
             {/* Item 4 */}
-            <div className="group relative bg-white p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
+            <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
                 src="https://f.hubspotusercontent40.net/hubfs/cctv%20ultimate%20gide.jpg"
                 alt="Item 4"
@@ -81,7 +81,7 @@ const HomeCenter = () => {
             </div>
 
             {/* Item 5 */}
-            <div className="group relative bg-white p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
+            <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
                 src="https://png.pngtree.com/background/original/pngtree-airport-security-3d-rendered-cctv-camera-in-action-picture-image_3756760.jpg"
                 alt="Item 5"
@@ -98,7 +98,7 @@ const HomeCenter = () => {
             </div>
 
 
-            <div className="group relative bg-white p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
+            <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
                 src="https://img.freepik.com/premium-photo/cctv-security-camera-private-alarm-system-banner-generative-1408.jpg"
                 alt="Item 4"
