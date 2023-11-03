@@ -2,22 +2,23 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 border-t border-neutral-200 mt-16 px-5 md:px-16 py-10 md:py-16">
+    <footer className="bg-sky-600 border-t border-neutral-200 mt-16 px-5 md:px-16 py-10 md:py-16">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <a href="/" className="font-bold text-xl text-white">
+            <a href="/" className="font-bold text-2xl text-white" style={{ fontFamily: "Times New Roman"}}>
               TaxMarg
             </a>
-            <p className="max-w-xs mt-4 text-sm text-white">
-            <p> 123 Dr. RajKumar Road, Bangalore, Karnataka 560021</p>
-                        <p> email : taxmart@gmail.com</p>
-                        <p>Phone: +91 999999999</p>            </p>
+            <p className="max-w-xs mt-4 text-lg text-white" style={{ fontFamily: "Times New Roman"}}>
+              <p> 123 Dr. RajKumar Road, Bangalore, Karnataka 560021</p>
+              <p> email : taxmart@gmail.com</p>
+              <p>Phone: +91 999999999</p>       
+            </p>
             <div className="flex mt-8 space-x-6">
               <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                 {/* Twitter */}
                 <svg
-                  className="h-6 w-6 fill-current text-white hover:text-orange-400"
+                  className="h-6 w-6 fill-current text-white "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -27,7 +28,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                 {/* Facebook */}
                 <svg
-                  className="h-6 w-6 fill-current text-white hover:text-orange-400"
+                  className="h-6 w-6 fill-current text-white "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -38,7 +39,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                 {/* Instagram */}
                 <svg
-                  className="h-6 w-6 fill-current text-white hover:text-orange-400"
+                  className="h-6 w-6 fill-current text-white "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -48,7 +49,7 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
                 {/* LinkedIn */}
                 <svg
-                  className="h-6 w-6 fill-current text-white hover:text-orange-400"
+                  className="h-6 w-6 fill-current text-white "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -59,7 +60,7 @@ const Footer = () => {
               <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
                 {/* YouTube */}
                 <svg
-                  className="h-6 w-6 fill-current text-white hover:text-orange-400"
+                  className="h-6 w-6 fill-current text-white "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -71,74 +72,81 @@ const Footer = () => {
 
           <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4 text-white">
             <div>
-              <p className="font-medium font-bold text-xl">Company</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm">
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b  w-fit">
+              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman" , textTransform: "uppercase"}}>Company</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman"}}>
+                <a href="/" className="  w-fit">
                   About
                 </a>
-                <a href="/contact" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
+                <a href="/contact" className=" w-fit">
                   Contact
                 </a>
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Industries
+                <a href="/" className=" w-fit">
+                  Industries
                 </a>
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
+                <a href="/" className="w-fit">
                   Businesses
                 </a>
               </nav>
             </div>
             <div>
-              <p className="font-medium font-bold text-xl">Services</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm">
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Services1
+              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman" , textTransform: "uppercase"}}>Services</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman"}}>
+                <a href="/" className=" w-fit">
+                  Audit
                 </a>
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Services2
+                <a href="/" className="w-fit">
+                Tax Consulting                </a>
+                <a href="/" className=" w-fit">
+                GST Registration
                 </a>
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Services3
+                <a href="/" className="w-fit">
+                Payroll
                 </a>
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Services4
-                </a>
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Services5
-                </a>
-              </nav>
-            </div>
-            <div>
-              <p className="font-medium font-bold text-xl">Important Links</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm">
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Important1
-                </a>
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Important2
-                </a>
-                <a href="/" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
-                Important3
+                <a href="/" className=" w-fit">
+                Startup Services
                 </a>
               </nav>
             </div>
             <div>
-              <p className="font-medium font-bold text-xl">Legal</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm">
-                <a href="/privacy-policy" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
+              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman" , textTransform: "uppercase"}}>Important Links</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman"}}>
+                <a href="/" className=" w-fit">
+                Simplified laws                </a>
+                <a href="/" className=" w-fit">
+                Income Tax India                </a>
+                <a href="/" className=" w-fit">
+                  GST in India
+                </a>
+                <a href="/" className=" w-fit">
+                Employees Provident Fund
+                </a>
+                <a href="/" className=" w-fit">
+                E-Tax Information Network
+                </a>
+
+
+              </nav>
+            </div>
+            <div>
+              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman", textTransform: "uppercase"}}>Legal</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman"}}>
+                <a href="/privacy-policy" className="w-fit">
                   Privacy Policy
                 </a>
-                <a href="/termsCondition" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
+                <a href="/termsCondition" className=" w-fit">
                   Terms &amp; Conditions
                 </a>
-                <a href="/service-policy" className="hover:opacity-75 hover:text-orange-400 hover:border-b w-fit">
+                <a href="/service-policy" className=" w-fit">
                   Service Policy
-                </a>              
+                </a> <a href="/service-policy" className=" w-fit">
+                Disclaimer Policy
+                </a>
               </nav>
             </div>
           </div>
         </div>
-        <br/>
-        <p className='text-white text-sm'>&copy; Copyright 2023, TaxMarg All rights reserved.</p>
+        <br />
+        <p className='text-white text-lg' style={{ fontFamily: "Times New Roman"}}>&copy; Copyright 2023, TaxMarg All rights reserved.</p>
 
       </div>
     </footer>

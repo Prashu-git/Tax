@@ -11,15 +11,14 @@ const NavLinks = () => {
         <div>
           <div className="px-3 text-left md:cursor-pointer group ">
             <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group "
-              style={{ color: "white" }}
+              className="py-7 flex justify-between items-center md:pr-0 pr-5 group" style={{ fontFamily: "Times New Roman", textTransform: "uppercase", color: "white" }}
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
               }}
             >
               {link.name}
-              <span className="text-xl md:hidden inline">
+              <span className="text-xl md:hidden inline" style={{ fontFamily: "Times New Roman" }}>
                 <ion-icon
                   name={`${heading === link.name ? "chevron-up" : "chevron-down"
                     }`}
@@ -31,18 +30,18 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-20 hidden group-hover:md:block hover:md:block hover:text-black">
+                <div className="absolute top-20 hidden group-hover:md:block hover:md:block hover:text-black" style={{ fontFamily: "Times New Roman" }}>
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
                     mt-1 bg-white rotate-45"
-                      style={{ backgroundColor: "white" }}
+                      style={{ backgroundColor: "white" ,fontFamily: "Times New Roman" }}
                     ></div>
                   </div>
                   <div className="bg-white p-5 grid grid-cols-3 gap-10 hover:text-black">
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                        <h1 className="text-lg font-semibold" style={{ color: "black" }}>
+                        <h1 className="text-lg font-semibold" style={{ color: "black", fontFamily: "Times New Roman"}}>
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
@@ -86,8 +85,8 @@ const NavLinks = () => {
                     <span className="text-xl md:mt-1 md:ml-2 inline">
                       <ion-icon
                         name={`${subHeading === slinks.Head
-                            ? "chevron-up"
-                            : "chevron-down"
+                          ? "chevron-up"
+                          : "chevron-down"
                           }`}
                       ></ion-icon>
                     </span>

@@ -9,7 +9,7 @@ const HomeCenter = () => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 underline">
               Welcome
             </h2>
-            <p className="mt-2 text-base sm:text-lg md:text-xl text-gray-600 underline">
+            <p className="mt-2 text-base sm:text-lg md:text-xl text-gray-600 underline"> 
               Pay all tax in way easier.
             </p>
           </div>
@@ -17,7 +17,7 @@ const HomeCenter = () => {
             {/* Item 1 */}
             <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
-                src="https://t3.ftcdn.net/jpg/06/20/73/20/_F_620732047_oK7OpoyxBp6qyk15WYAf1O5p9EKbk2g.jpg"
+                src="https://static9.depositphotos.com/1684360/1192/i/950/depositphotos_11929800-stock-photo-income-tax-word-cloud-concept.jpg"
                 alt="Item 1"
                 className="w-full h-48 sm:h-56 lg:h-72 rounded-lg object-cover"
               />
@@ -33,7 +33,7 @@ const HomeCenter = () => {
             {/* Item 2 */}
             <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
-                src="https://img.freepik.com/premium-/building-with-hightec-security-3865.jpg"
+                src="https://previews.123rf.com/images/kgtoh/kgtoh1004/kgtoh100401413/6706050-tax-types-management-business-strategy-concept-diagram-illustration.jpg"
                 alt="Item 2"
                 className="w-full h-48 sm:h-56 lg:h-72 rounded-lg object-cover"
               />
@@ -49,7 +49,7 @@ const HomeCenter = () => {
             {/* Item 3 */}
             <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
-                src="https://img.freepik.com/premium-/vector-data-security-persona-data-175.jpg"
+                src="https://previews.123rf.com/images/virtosmedia/virtosmedia2302/virtosmedia230241255/198710534-business-people-working-together-in-office-business-people-working-together-in-office.jpg"
                 alt="Item 3"
                 className="w-full h-48 sm:h-56 lg:h-72 rounded-lg object-cover"
               />
@@ -66,7 +66,7 @@ const HomeCenter = () => {
             {/* Item 4 */}
             <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
-                src="https://f.hubspotusercontent40.net/hubfs/cctv%20ultimate%20gide.jpg"
+                src="https://previews.123rf.com/images/veerasakpiyawatanakul/veerasakpiyawatanakul1906/veerasakpiyawatanakul190600757/124372139-businesspeople-analyzing-investment-graph-meeting-brainstorming-and-discussing-plan-in-meeting-room.jpg"
                 alt="Item 4"
                 className="w-full h-48 sm:h-56 lg:h-72 rounded-lg object-cover"
               />
@@ -83,7 +83,7 @@ const HomeCenter = () => {
             {/* Item 5 */}
             <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
-                src="https://png.pngtree.com/background/original/pngtree-airport-security-3d-rendered-cctv-camera-in-action-picture-image_3756760.jpg"
+                src="https://st3.depositphotos.com/1000423/13121/i/1600/depositphotos_131218272-stock-photo-new-technologies-for-business-mixed.jpg"
                 alt="Item 5"
                 className="w-full h-48 sm:h-56 lg:h-72 rounded-lg object-cover"
               />
@@ -97,10 +97,10 @@ const HomeCenter = () => {
               </div>
             </div>
 
-
+{/* Item 6 */}
             <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
-                src="https://img.freepik.com/premium-photo/cctv-security-camera-private-alarm-system-banner-generative-1408.jpg"
+                src="https://st5.depositphotos.com/9439220/66439/i/600/depositphotos_664399110-stock-photo-women-calculate-tax-doing-finance.jpg"
                 alt="Item 4"
                 className="w-full h-48 sm:h-56 lg:h-72 rounded-lg object-cover"
               />
