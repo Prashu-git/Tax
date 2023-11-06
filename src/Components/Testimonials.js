@@ -1,68 +1,101 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Card = ({ star, title, imgSrc }) => {
+const customerReviews = [
+  {
+    name: 'one',
+    imageSrc: 'https://www.imgonline.com.ua/examples/red-yellow-flower.jpg',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.',
+  },
+  {
+    name: 'two',
+    imageSrc: 'https://bizimages.withfloats.com/actual/60e0629d1eb0770001a38755.jpg',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.',
+  },
+  {
+    name: 'three',
+    imageSrc: 'https://onlinejpgtools.com/images/examples-onlinejpgtools/orange-flower.jpg',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, quam ac fermentum vulputate, augue.',
+  },
+  // Add more reviews with image details
+];
+
+const ReviewCard = ({ review, active }) => {
   return (
-    <div className="mx-2 flex flex-col gap-4 select-none cursor-pointer border border-[#4e4e4e31] p-10 rounded-lg hover:shadow-xl transition-all">
-      <div className="text-rose-600">
-        {star} {/* Replace with your star icon */}
-        {star} {/* Add additional stars as needed */}
-      </div>
-      <h2 className="text-lg font-semibold mb-2">{title}</h2>
-      <p className="leading-loose">
-        Get working experience to work with this amazing team & in the future want to work together for bright future projects and also make a deposit to a freelancer.
-      </p>
-      <div className="flex items-center gap-4 mt-5">
-        <img src={imgSrc} alt="testimonials" width={50} height={50} />
-        {/* <div>
-          <h3 className="font-semibold">One</h3>
-          <a
-            href="https://github.com/"
-            target="_blank"
-            className="text-rose-600 font-[500]"
-          >
-            @three
-          </a>
-        </div> */}
-      </div>
+    <div
+      className={`testimonial p-5 mx-4 max-w-md transition-transform ${
+        active ? 'block' : 'hidden'
+      }`}
+    >
+      <img
+        alt={review.name}
+        src={review.imageSrc}
+        className="customer-image rounded-full mx-auto max-w-[100px] max-h-[100px]"
+      />
+      <p className="customer-review mt-4 text-gray-600 text-center">{review.review}</p>
+      <p className="customer-name mt-4 text-xl font-semibold text-center">{review.name}</p>
     </div>
   );
 };
 
 const Testimonials = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleNextSlide = () => {
+    setActiveIndex((prevIndex) => (prevIndex === customerReviews.length - 1 ? 0 : prevIndex + 1));
+  };
+
+  const handlePrevSlide = () => {
+    setActiveIndex((prevIndex) => (prevIndex === 0 ? customerReviews.length - 1 : prevIndex - 1));
+  };
+
   return (
-    <section className="relative container mx-auto px-5 md:px-16 flex flex-col gap-5" id="testimonial">
-      <div>
-        <span className="service-name text-center ">TESTIMONIAL</span>
-        <h2 className="title text-center ">Meet Client Satisfaction</h2>
+    <section className="slider bg-gray-100 py-10 text-center relative">
+      <button
+        onClick={handlePrevSlide}
+        className="slider-button prev-button bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mx-2 rounded-full focus:outline-none absolute left-0 top-1/2 transform -translate-y-1/2"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <div className="logo-slider flex justify-center items-center overflow-hidden">
+        {customerReviews.map((review, index) => (
+          <ReviewCard key={index} review={review} active={index === activeIndex} />
+        ))}
       </div>
-      <div>
-        <Card
-          star="☆" /* Replace with your star icon or character */
-          title="Modern look & trending design"
-          imgSrc="/testimonials/1.png" /* Replace with the path to your image */
-        />
-      </div>
-      <div>
-        <Card
-          star="☆"
-          title="Layout and organized layers"
-          imgSrc="/testimonials/2.png"
-        />
-      </div>
-      <div>
-        <Card
-          star="☆"
-          title="Design Quality & performance"
-          imgSrc="/testimonials/3.png"
-        />
-      </div>
-      <div>
-        <Card
-          star="☆"
-          title="Layout and organized layers"
-          imgSrc="/testimonials/4.png"
-        />
-      </div>
+      <button
+        onClick={handleNextSlide}
+        className="slider-button next-button bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mx-2 rounded-full focus:outline-none absolute right-0 top-1/2 transform -translate-y-1/2"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M13 5l7 7-7 7M5 5l7 7-7 7"
+          />
+        </svg>
+      </button>
     </section>
   );
 };
