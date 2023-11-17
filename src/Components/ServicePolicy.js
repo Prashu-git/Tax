@@ -9,7 +9,6 @@ const ServicePolicy = () => {
             <br />
             <Footer />
 
-
         </>
 
     )

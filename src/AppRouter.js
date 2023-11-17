@@ -10,6 +10,8 @@ import App from './App';
 import TermsConditions from "./Components/TermsConditions";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import ServicePolicy from "./Components/ServicePolicy";
+import Outsource from "./Components/Outsource";
+import DisclaimerPolicy from "./Components/DisclaimerPolicy";
 
 
 function AppRouter() {
@@ -19,16 +21,19 @@ function AppRouter() {
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/businesses" element={<Businesses />} />
         <Route path="/registrations" element={<Registrations />} />
         <Route path="/reports" element={<Reports />} />
+        <Route path="/outsource" element={<Outsource />} />
+
         <Route path="/industries" element={<Industries />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/termsCondition" element={<TermsConditions/>}/>
-        <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
-        <Route path="/service-policy" element={<ServicePolicy/>}/>
+        <Route path="/termsCondition" element={<TermsConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/service-policy" element={<ServicePolicy />} />
+        <Route path="/disclaimer-policy" element={<DisclaimerPolicy />} />
 
-        
+
+
       </Routes>
     </BrowserRouter>
   );

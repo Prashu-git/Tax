@@ -6,13 +6,13 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <a href="/" className="font-bold text-2xl text-white" style={{ fontFamily: "Times New Roman"}}>
+            <a href="/" className="font-bold text-2xl text-white" style={{ fontFamily: "Times New Roman" }}>
               TaxMarg
             </a>
-            <p className="max-w-xs mt-4 text-lg text-white" style={{ fontFamily: "Times New Roman"}}>
+            <p className="max-w-xs mt-4 text-lg text-white" style={{ fontFamily: "Times New Roman" }}>
               <p> 123 Dr. RajKumar Road, Bangalore, Karnataka 560021</p>
               <p> email : taxmart@gmail.com</p>
-              <p>Phone: +91 999999999</p>       
+              <p>Phone: +91 999999999</p>
             </p>
             <div className="flex mt-8 space-x-6">
               <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
@@ -72,8 +72,8 @@ const Footer = () => {
 
           <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4 text-white">
             <div>
-              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman" , textTransform: "uppercase"}}>Company</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman"}}>
+              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }}>Company</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman" }}>
                 <a href="/" className="  w-fit">
                   About
                 </a>
@@ -89,47 +89,47 @@ const Footer = () => {
               </nav>
             </div>
             <div>
-              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman" , textTransform: "uppercase"}}>Services</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman"}}>
+              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }}>Services</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman" }}>
                 <a href="/" className=" w-fit">
                   Audit
                 </a>
                 <a href="/" className="w-fit">
-                Tax Consulting                </a>
+                  Tax Consulting                </a>
                 <a href="/" className=" w-fit">
-                GST Registration
+                  GST Registration
                 </a>
                 <a href="/" className="w-fit">
-                Payroll
+                  Payroll
                 </a>
                 <a href="/" className=" w-fit">
-                Startup Services
+                  Startup Services
                 </a>
               </nav>
             </div>
             <div>
-              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman" , textTransform: "uppercase"}}>Important Links</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman"}}>
+              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }}>Important Links</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman" }}>
                 <a href="/" className=" w-fit">
-                Simplified laws                </a>
+                  Simplified laws                </a>
                 <a href="/" className=" w-fit">
-                Income Tax India                </a>
+                  Income Tax India                </a>
                 <a href="/" className=" w-fit">
                   GST in India
                 </a>
                 <a href="/" className=" w-fit">
-                Employees Provident Fund
+                  Employees Provident Fund
                 </a>
                 <a href="/" className=" w-fit">
-                E-Tax Information Network
+                  E-Tax Information Network
                 </a>
 
 
               </nav>
             </div>
             <div>
-              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman", textTransform: "uppercase"}}>Legal</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman"}}>
+              <p className="font-medium font-bold text-xl" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }}>Legal</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-lg" style={{ fontFamily: "Times New Roman" }}>
                 <a href="/privacy-policy" className="w-fit">
                   Privacy Policy
                 </a>
@@ -138,15 +138,15 @@ const Footer = () => {
                 </a>
                 <a href="/service-policy" className=" w-fit">
                   Service Policy
-                </a> <a href="/service-policy" className=" w-fit">
-                Disclaimer Policy
+                </a> <a href="/disclaimer-policy" className=" w-fit">
+                  Disclaimer Policy
                 </a>
               </nav>
             </div>
           </div>
         </div>
         <br />
-        <p className='text-white text-lg' style={{ fontFamily: "Times New Roman"}}>&copy; Copyright 2023, TaxMarg All rights reserved.</p>
+        <p className='text-white text-lg' style={{ fontFamily: "Times New Roman" }}>&copy; Copyright 2023, TaxMarg All rights reserved.</p>
 
       </div>
     </footer>

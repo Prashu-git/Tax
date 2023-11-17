@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import image2 from "./Images/image2.jpg";
+import WhatsApp from "./WhatsApp";
 
 const About = () => {
   return (
@@ -53,6 +54,7 @@ const About = () => {
         </div>
       </section>
       <Footer />
+      <WhatsApp />
     </>
   );
 };

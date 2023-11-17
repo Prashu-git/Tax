@@ -9,7 +9,7 @@ const HomeCenter = () => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 underline">
               Welcome
             </h2>
-            <p className="mt-2 text-base sm:text-lg md:text-xl text-gray-600 underline"> 
+            <p className="mt-2 text-base sm:text-lg md:text-xl text-gray-600 underline">
               Pay all tax in way easier.
             </p>
           </div>
@@ -23,7 +23,7 @@ const HomeCenter = () => {
               />
               <div className="mt-4">
                 <h3 className="text-lg font-medium text-gray-900">
-                  One
+                  Audits
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra.                </p>
@@ -39,7 +39,7 @@ const HomeCenter = () => {
               />
               <div className="mt-4">
                 <h3 className="text-lg font-medium text-gray-900">
-                  Two                </h3>
+                  Payroll                </h3>
                 <p className="mt-2 text-sm text-gray-500">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin.
                 </p>
@@ -55,7 +55,7 @@ const HomeCenter = () => {
               />
               <div className="mt-4">
                 <h3 className="text-lg font-medium text-gray-900">
-                  Three
+                  Startup services
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur.
@@ -72,7 +72,7 @@ const HomeCenter = () => {
               />
               <div className="mt-4">
                 <h3 className="text-lg font-medium text-gray-900">
-                  Four
+                  GST
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Turpis egestas maecenas pharetra convallis. Malesuada fames ac turpis egestas. Venenatis urna cursus eget nunc scelerisque viverra. Tellus in hac habitasse platea dictumst. Duis ultricies lacus sed turpis. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Augue eget arcu dictum varius duis at consectetur.
@@ -97,7 +97,7 @@ const HomeCenter = () => {
               </div>
             </div>
 
-{/* Item 6 */}
+            {/* Item 6 */}
             <div className="group relative bg-sky-100 p-4 sm:p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg">
               <img
                 src="https://st5.depositphotos.com/9439220/66439/i/600/depositphotos_664399110-stock-photo-women-calculate-tax-doing-finance.jpg"
@@ -113,12 +113,90 @@ const HomeCenter = () => {
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-
-
+      <br />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
+        <p className="text-gray-600 leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          convallis libero in dui facilisis, at egestas turpis volutpat.
+          Suspendisse potenti. Sed bibendum euismod diam, vel suscipit augue
+          vestibulum et. Phasellus ac purus id lectus scelerisque auctor ut
+          a ligula. Integer eu volutpat felis. Nullam a hendrerit lectus, id
+          volutpat dui. Phasellus lacinia erat mi, eget sagittis purus auctor
+          eget. Vestibulum quis consectetur massa. Proin ut diam at metus
+          fringilla fermentum.Vestibulum eget ante ut odio elementum viverra. Nullam nec felis ac
+          nunc bibendum bibendum in sit amet erat. Maecenas sed gravida nisl.
+          Fusce ultrices auctor lacinia. Proin in justo nec sem eleifend
+          convallis. Sed at ante ac turpis cursus iaculis. Suspendisse
+          potenti. Sed condimentum mauris nec dapibus interdum. Vestibulum
+          nec semper velit, in tristique purus
+        </p>
+        <p className="text-gray-600 leading-relaxed mt-4">
+          Vestibulum eget ante ut odio elementum viverra. Nullam nec felis ac
+          nunc bibendum bibendum in sit amet erat. Maecenas sed gravida nisl.
+          Fusce ultrices auctor lacinia. Proin in justo nec sem eleifend
+          convallis. Sed at ante ac turpis cursus iaculis. Suspendisse
+          potenti. Sed condimentum mauris nec dapibus interdum. Vestibulum
+          nec semper velit, in tristique purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          convallis libero in dui facilisis, at egestas turpis volutpat.
+          Suspendisse potenti. Sed bibendum euismod diam, vel suscipit augue
+          vestibulum et. Phasellus ac purus id lectus scelerisque auctor ut
+          a ligula. Integer eu volutpat felis. Nullam a hendrerit lectus, id
+          volutpat dui. Phasellus lacinia erat mi, eget sagittis purus auctor
+          eget. Vestibulum quis consectetur massa. Proin ut diam at metus
+          fringilla fermentum.Vestibulum eget ante ut odio elementum viverra. Nullam nec felis ac
+          nunc bibendum bibendum in sit amet erat. Maecenas sed gravida nisl.
+          Fusce ultrices auctor lacinia. Proin in justo nec sem eleifend
+          convallis. Sed at ante ac turpis cursus iaculis. Suspendisse
+          potenti. Sed condimentum mauris nec dapibus interdum. Vestibulum
+          nec semper velit, in tristique purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          convallis libero in dui facilisis, at egestas turpis volutpat.
+          Suspendisse potenti. Sed bibendum euismod diam, vel suscipit augue
+          vestibulum et. Phasellus ac purus id lectus scelerisque auctor ut
+          a ligula. Integer eu volutpat felis. Nullam a hendrerit lectus, id
+          volutpat dui. Phasellus lacinia erat mi, eget sagittis purus auctor
+          eget. Vestibulum quis consectetur massa. Proin ut diam at metus
+          fringilla fermentum.Vestibulum eget ante ut odio elementum viverra. Nullam nec felis ac
+          nunc bibendum bibendum in sit amet erat. Maecenas sed gravida nisl.
+          Fusce ultrices auctor lacinia. Proin in justo nec sem eleifend
+          convallis. Sed at ante ac turpis cursus iaculis. Suspendisse
+          potenti. Sed condimentum mauris nec dapibus interdum. Vestibulum
+          nec semper velit, in tristique purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          convallis libero in dui facilisis, at egestas turpis volutpat.
+          Suspendisse potenti. Sed bibendum euismod diam, vel suscipit augue
+          vestibulum et. Phasellus ac purus id lectus scelerisque auctor ut
+          a ligula. Integer eu volutpat felis. Nullam a hendrerit lectus, id
+          volutpat dui. Phasellus lacinia erat mi, eget sagittis purus auctor
+          eget. Vestibulum quis consectetur massa. Proin ut diam at metus
+          fringilla fermentum.Vestibulum eget ante ut odio elementum viverra. Nullam nec felis ac
+          nunc bibendum bibendum in sit amet erat. Maecenas sed gravida nisl.
+          Fusce ultrices auctor lacinia. Proin in justo nec sem eleifend
+          convallis. Sed at ante ac turpis cursus iaculis. Suspendisse
+          potenti. Sed condimentum mauris nec dapibus interdum. Vestibulum
+          nec semper velit, in tristique purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          convallis libero in dui facilisis, at egestas turpis volutpat.
+          Suspendisse potenti. Sed bibendum euismod diam, vel suscipit augue
+          vestibulum et. Phasellus ac purus id lectus scelerisque auctor ut
+          a ligula. Integer eu volutpat felis. Nullam a hendrerit lectus, id
+          volutpat dui. Phasellus lacinia erat mi, eget sagittis purus auctor
+          eget. Vestibulum quis consectetur massa. Proin ut diam at metus
+          fringilla fermentum.Vestibulum eget ante ut odio elementum viverra. Nullam nec felis ac
+          nunc bibendum bibendum in sit amet erat. Maecenas sed gravida nisl.
+          Fusce ultrices auctor lacinia. Proin in justo nec sem eleifend
+          convallis. Sed at ante ac turpis cursus iaculis. Suspendisse
+          potenti. Sed condimentum mauris nec dapibus interdum. Vestibulum
+          nec semper velit, in tristique purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          convallis libero in dui facilisis, at egestas turpis volutpat.
+          Suspendisse potenti. Sed bibendum euismod diam, vel suscipit augue
+          vestibulum et. Phasellus ac purus id lectus scelerisque auctor ut
+          a ligula. Integer eu volutpat felis. Nullam a hendrerit lectus, id
+          volutpat dui. Phasellus lacinia erat mi, eget sagittis purus auctor
+          eget. Vestibulum quis consectetur massa. Proin ut diam at metus
+          fringilla fermentum.
+        </p>
+      </div>
     </>
   );
 };

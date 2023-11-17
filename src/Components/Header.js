@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import NavLinks from "./Navbar/NavLinks";
 import Button from "./Navbar/Button";
-import Demo from "./Demo";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -38,18 +37,15 @@ const Header = () => {
               Industries
             </Link>
           </li>
+          <NavLinks />
+
+          
           <li>
             <Link to="/contact" className="py-7 px-3 inline-block" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }}>
-              Contact
-            </Link>
-          </li>
-          <li>
-            <Link to="/" className="py-7 px-3 inline-block" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }}>
-              Compliance
+            Contact
             </Link>
           </li>
           {/* <Demo/> */}
-          <NavLinks />
         </ul>
         <div className={`md:block hidden text-white`}>
           <Button />
@@ -77,18 +73,16 @@ const Header = () => {
               Industries
             </Link>
           </li>
+          <NavLinks />
+
           <li>
             <Link to="/contact" className="py-7 px-3 inline-block text-white" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }}>
               Contact
             </Link>
           </li>
-          <li>
-            <Link to="/" className="py-7 px-3 inline-block text-white" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }} >
-              Compliance
-            </Link>
-          </li>
-          {/* <Demo/> */}
-          <NavLinks />
+         
+          
+          
         </ul>
       </div>
     </nav>
