@@ -45,9 +45,9 @@ const Contact = () => {
     <>
       <Header />
       <section className="bg-white py-4 md:py-10">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
-            <div className="mb-4 md:mb-0">
+            <div className="mb-8 md:mb-0">
               <h3 className="text-2xl font-bold mb-2 md:mb-4">Contact Us</h3>
               <p className="text-green-500 text-sm mb-2 hidden contact_success_box">
                 We received your message and you'll hear from us soon. Thank You!
@@ -96,7 +96,7 @@ const Contact = () => {
                 />
               </form>
             </div>
-            <div className="mb-4">
+            <div className="mb-8">
               <h3 className="text-2xl font-bold mb-2 md:mb-4">How to find us</h3>
               <iframe
                 className="w-full h-60 mb-4 border border-gray-300 rounded-md"
@@ -139,7 +139,7 @@ const Contact = () => {
       )}
 
       <Footer />
-      <WhatsApp/>
+      <WhatsApp />
     </>
   );
 };

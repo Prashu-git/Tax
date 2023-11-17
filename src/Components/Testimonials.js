@@ -25,7 +25,7 @@ const Testimonials = () => {
       image: "https://svcstrg.cld.navitime.jp/imgfile/02301_t9355_01.jpg", // Replace with the actual image URL
       name: "Three",
     },
-    
+
   ];
 
   return (
@@ -38,13 +38,13 @@ const Testimonials = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 sm:mt-16 bg-white pb-16">
-  {testimonials.map((item) => {
-    const { id, about, name, title, image } = item;
-    return (
-      <div
-        key={id}
-        className="flex flex-col gap-10 feature-card rounded-2xl px-5 sm:px-10 md:px-6 py-10 ss:py-14 lg:px-10"
-      >
+        {testimonials.map((item) => {
+          const { id, about, name, title, image } = item;
+          return (
+            <div
+              key={id}
+              className="flex flex-col gap-10 feature-card rounded-2xl px-5 sm:px-10 md:px-6 py-10 ss:py-14 lg:px-10"
+            >
               <RiDoubleQuotesL className="text-5xl text-secondary" />
               <p className="leading-normal text-base text-dimWhite">
                 {about}
