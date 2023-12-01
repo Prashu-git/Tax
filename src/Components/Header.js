@@ -39,10 +39,10 @@ const Header = () => {
           </li>
           <NavLinks />
 
-          
+
           <li>
             <Link to="/contact" className="py-7 px-3 inline-block" style={{ fontFamily: "Times New Roman", textTransform: "uppercase" }}>
-            Contact
+              Contact
             </Link>
           </li>
           {/* <Demo/> */}
@@ -80,9 +80,9 @@ const Header = () => {
               Contact
             </Link>
           </li>
-         
-          
-          
+
+
+
         </ul>
       </div>
     </nav>

@@ -63,7 +63,7 @@ const Slider = () => {
           type="button"
           className="flex absolute top-1/2 left-2 z-30 justify-center items-center px-2 h-8 cursor-pointer group focus:outline-none md:hidden"
           data-Slider-prev
-          onClick={handlePrevClick}
+          onClick={handlePrevClick}        
         >
           <span className="inline-flex justify-center items-center w-6 h-6 rounded-full sm:w-8 sm:h-8 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover-bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg
